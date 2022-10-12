@@ -1,0 +1,409 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+li, a, button{
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10px;
+}
+.nav_link {
+	list-style: none;
+	}
+.nav_link li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+}
+#main{
+	font-size: 25px;
+	color: #1746A2;
+}
+#login{
+	color: #1746A2;
+}
+#buttontop{
+	padding: 5px 0;
+	color: white;
+	background-color:#1746A2;
+	border: 1px solid #1746A2;
+
+}
+
+
+
+
+.ads{
+	padding-top: 20px;
+	height:60px;
+	width: 100%;
+	background-color: #C3F8FF;
+	text-align: center;
+}
+#first{
+	font-size: 40px;
+padding: 30px 0 0 0;
+}
+#second{
+	font-size: 16px;
+	padding: 20px 0 0 0;
+}
+#third{
+	font-size: 16px;
+	padding: 20px 0 0 0;
+}
+
+
+.bodyone{
+height: 500px;
+display: flex;
+background-color: white;
+
+
+}
+
+.picone{
+	height: 10px;
+	width: 50px;
+}
+.start{
+	padding: 40px 150px;
+	width: 50%;
+}
+.startone img{
+	height: 300px;
+	width: 300px;
+	margin: 100px 50px;
+	border-radius: 50%;
+}
+#buttontwo{
+	padding: 10px 20px;
+	margin-top: 10px;
+	background-color: white;
+	color: #5F9DF7;
+	border: 1px solid  #5F9DF7;
+}
+#buttonone{
+	padding: 10px 20px;
+	margin-top: 10px ;
+	background-color: #5F9DF7;
+	color: white;
+	border: 1px solid #5F9DF7;
+}
+#buttontwo:hover{
+	padding: 10px 20px;
+	margin-top: 10px;
+	background-color: #5F9DF7;
+	color: white;
+	border: 1px solid  #5F9DF7;
+}
+#buttonone:hover{
+	padding: 10px 20px;
+	margin-top: 10px ;
+	background-color: #1746A2;
+	color: white;
+	border: 1px solid #5F9DF7;
+}
+
+
+
+
+.bodytwo{
+	height: 300px;
+	width: 100%;
+	background-color: #EDEDED;
+margin-top: 0;
+
+}
+.bodytwo p{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 25px;
+}
+.bodytwoa{
+margin-left: 350px;
+}
+.bodytwoa img{
+	height:80px;
+	width: 180px;
+	
+	margin-top: 50px;
+	margin-left: 10px;
+	padding-left: 5px;
+	align-items: center;
+}
+.bodysix{
+	height: 500px;
+	background-color: white;
+
+}
+.bodythree{
+	height: 500px;
+	background-color: white;
+	padding: 5px 0px;
+}
+.height{
+	height: 600px;
+	margin-left: 50px;
+}
+.bodyfour{
+	height: 500px;
+	background-color:white;
+	padding: 5px 0px;
+	display: block;
+
+
+}
+.parent{
+
+padding: 20px 0 0 0;
+
+display: flex;
+	flex-direction: row;
+height: 150px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: 20px 20px;
+	height: 300px;
+	width: 28%;
+}
+.card.hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+	margin-top: 15px;
+}
+.container p{
+	margin: 5px;
+}
+#last{
+	margin-top: 50px;
+	padding:2px 16px;
+}
+.bodyfive{
+	margin: 50 0px;
+	height: 500px;
+}
+.outcomes{
+	height: 500px;
+	background-color: #BCCEF8;
+	display: flex;
+	padding: 50px 50px;
+
+}
+#pfirst{
+	font-size: 40px;
+}
+#psecond, #pthird, #pfourth{
+	font-size: 20px;
+	padding-top: 20px;
+	width: 50%;
+}
+.outcomes button{
+	margin: 50px 50px;
+	padding: 10px 70px;
+	background-color: #98A8F8;
+	border-radius: 5px;
+	display: flex;
+}
+.outcomefrist{
+	display: flex;
+
+}
+.outcomesecond{
+	height: 250px;
+	width: 250px;
+	margin-right: 100px;
+}
+.student{
+	height: 650px;
+	width: 100%;
+	background-color: #FAF7F0;
+	display: block;
+	text-align: center;
+
+}
+#studentfirst{
+font-size: 80px;
+
+}
+#studentsecond{
+	font-size: 20px;
+}
+.studentone{
+	display: flex;
+	margin: 0;
+}
+.father{
+	margin: 50px 50px;
+	padding: 10px 10px;
+	height: 50px;
+	width: 28%;
+align-items: center;
+
+
+}
+.father img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	align-items: center;
+}
+
+.son{
+	text-align: center;
+}
+.son p{
+	padding-top: 10px; 
+}
+#sonone{
+	color: blue;
+	font-size: 22px;
+}
+#sontwo{
+	font-size: 16px;
+}
+#sonthree{
+	font-size: 20px;
+}
+.business{
+	margin: 100px 100px;
+	height: 400px;
+	width: 100%;
+display: flex;
+}
+.business button{
+	margin: 50px 10px;
+	padding: 20px 40px;
+	border:2px solid blue;
+	border-radius: 5px;
+	font-size: 20px;
+	color: blue;
+}
+button:hover{
+	background-color: #31C6D4;
+	color: white;
+
+}
+.businessone img{
+	margin-right: 50px;
+	padding-right: 50px;
+}
+.join{
+	height:700px;
+	width: 100%;
+	margin-top: 200px;
+	margin-left: 50px;
+display:flex;
+}
+.join button{
+	margin: 50px 10px;
+	padding: 20px 40px;
+	border: 2px solid #5F9DF7;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-color:#5F9DF7;
+}
+button:hover{
+	background-color: blue;
+}
+#second{
+	width: 40%;
+}
+#joinone{
+	height: 400px;
+	width: 400px;
+	margin: 40px 10px 40px 50px;
+}
+.jointwo{
+	margin-left: 20px;
+}
+.collection{
+
+	display: flex;
+	background-color: #EDEDED;
+	height: 1000px;
+}
+.collectionhead{
+	margin-top: 50px;
+	height: 1000px;
+		margin-left: 50px;
+		width: 28%;
+}
+.collectionhead p{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+.footer{
+	height: 0px;
+	width: 0px;
+
+
+}
+.endone{
+	background-color: #EDEDED;
+	
+	display: flex;
+}
+.mother{
+	height: 500px;
+	width: 28%;
+	margin: 50px 50px;
+	
+}
+.mother p{
+	font-size: 30px;
+}
+.daughter{
+	padding-top: 15px;
+}
+.daughter li{
+	padding-top: 10px;
+	text-decoration: none;
+}
+.daughter a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.icon{
+	margin-top: 150px;
+	width: 28%;
+}
+#imgone{
+	margin-top: 30px;
+	height: 70px;
+	width: 100px;
+}
+#imgthree{
+	margin-top: 30px;
+	height: 150px;
+	width: 150px;
+}
+
+.card img{
+	height: 150px;
+	width: 250px;
+}
